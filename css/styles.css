@@ -10826,7 +10826,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(31, 12, 72, 0.05), rgba(31, 12, 72, 0.05)), url("assets/port4.png");
+  background-image: linear-gradient(rgba(31, 12, 72, 0.05), rgba(31, 12, 72, 0.05)), url("../assets/port4.png");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
