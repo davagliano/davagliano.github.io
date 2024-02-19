@@ -43,6 +43,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 231, 74 , 118;
+  --bs-tertiary-rgb: 168, 54 , 85;
   --bs-secondary-rgb: 31, 12, 72;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -7651,6 +7652,10 @@ textarea.form-control-lg {
   margin-right: auto !important;
 }
 
+.ms-fixed {
+    margin-left: 48rem !important;
+  }
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -8047,6 +8052,11 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
+
+.text-tertiary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-tertiary-rgb), var(--bs-text-opacity)) !important;
+  }
 
 .text-success {
   --bs-text-opacity: 1;
@@ -10830,7 +10840,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(31, 12, 72, 0.05), rgba(31, 12, 72, 0.05)), url("../assets/port4.png");
+  background-image: linear-gradient(rgba(220, 220, 220, 0.65), rgba(220, 220, 220, 0.65)), url("../assets/port4.png");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -11013,6 +11023,25 @@ p {
     max-width: 50vw;
   }
 }
+
+@media (min-width: 992px) {
+    .product-research .product-research-title {
+      position: relative;
+      z-index: 1;
+      margin-bottom: -3rem;
+    }
+    .product-research .product-research-img {
+      position: relative;
+      z-index: 0;
+      max-width: 50vw;
+    }
+    .product-research .product-research-description {
+      position: relative;
+      z-index: 1;
+      margin-top: -3rem;
+      max-width: 50vw;
+    }
+  }
 
 .list-hours {
   font-size: 0.9rem;
