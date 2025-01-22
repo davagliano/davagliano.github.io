@@ -10880,18 +10880,23 @@ p {
 .section-heading {
   text-transform: uppercase;
 }
-.section-heading .section-heading-upper {
+.section-heading .section-heading-role {
   display: block;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 200;
+}
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 450;
 }
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
-  font-weight: 100;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
-.section-heading .section-heading-lower-team {
+.section-heading .section-heading-lower-author {
   display: block;
   font-size: 3rem;
   font-weight: 100;
@@ -11014,13 +11019,19 @@ p {
   .product-item .product-item-img {
     position: relative;
     z-index: 0;
-    max-width: 20vw;
+    max-width: 15vw;
   }
   .product-item .product-item-description {
     position: relative;
     z-index: 1;
-    margin-top: -3rem;
+    margin-top: -12rem;
     max-width: 50vw;
+  }
+  .product-item .authors {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 1000vw;
   }
 }
 
